@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Site</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<header>
+    <img src="/images/Logo-min.png" alt="Logo" width="600" height="auto">
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<img src="/images/banner-2-min.png" width="100%" height="auto">
+
+<section id="home" class="banner">
+   
+</section>
+
+<section id="servicos" class="container">
+
+    <div class="product">
+        <img src="images/4-60513c2a-min.png" alt="Produto 1">
+        <h2>Filé</h2>
+        <p>Descrição do produto 1.</p>
+    </div>
+    <div class="product">
+        <img src="/images/1-60513c2a-min.png" alt="Produto 2">
+        <h2>Pão de Batata e alho</h2>
+        <p>Descrição do produto 2.</p>
+    </div>
+    <div class="product">
+        <img src="/images/1-fbe77336-min.png" alt="Produto 3">
+        <h2>frutos do mar</h2>
+        <p>Descrição do produto 3.</p>
+    </div>
+    
+</section>
+<section id="servicos" class="servicos"></section>
+    <div class="servicos-container">
+        <h1>Nossos Serviços</h1>
+        <div class="servico-item">
+            <img src="/images/3-60513c2a-min.png" alt="Menu Gourmet">
+            <h2>Menu Gourmet</h2>
+            <p>Desfrute de uma experiência culinária incomparável com nosso menu gourmet, elaborado por chefs renomados e baseado em ingredientes frescos e de alta qualidade. Cada prato é uma verdadeira obra de arte, projetada para encantar todos os seus sentidos.</p>
+        </div>
+        <div class="servico-item">
+            <img src="/images/2-fbe77336-min.png" alt="Eventos Especiais">
+            <h2>Eventos Especiais</h2>
+            <p>O Gourmet Style é o local ideal para suas celebrações e eventos especiais. Oferecemos um ambiente sofisticado e um serviço impecável para garantir que cada evento, seja um casamento, aniversário ou reunião corporativa, seja inesquecível.</p>
+        </div>
+        <div class="servico-item">
+            <img src="/images/1-fbe77336-min.png" alt="Serviço de Catering">
+            <h2>Serviço de Catering</h2>
+            <p>Para eventos fora do nosso restaurante, oferecemos um serviço de catering que leva a excelência do Gourmet Style até você. Nossa equipe garante que cada prato servido esteja no mais alto padrão de qualidade, para que você e seus convidados tenham uma experiência gastronômica de primeira classe.</p>
+        </div>
+    </div>
+</section>
+<section id="sobre">
+    <section id="sobre" class="sobre">
+        <div class="sobre-container">
+            <h1>Sobre Nós</h1>
+            <p>Bem-vindo ao Gourmet Style, onde a excelência gastronômica encontra um ambiente sofisticado e elegante. Fundado com a missão de oferecer uma experiência culinária inesquecível, nosso restaurante é o destino ideal para aqueles que apreciam a arte da gastronomia de alta classe.</p>
+            <p>Nossa equipe é composta por chefs renomados que utilizam apenas ingredientes frescos e de alta qualidade para criar pratos que são verdadeiras obras-primas. Cada refeição é preparada com paixão e atenção aos detalhes, garantindo que cada visita ao Gourmet Style seja única e memorável.</p>
+            <p>O ambiente do Gourmet Style é cuidadosamente projetado para proporcionar uma experiência requintada, com decoração sofisticada e atendimento impecável. Queremos que nossos clientes se sintam especiais e desfrutem de cada momento em nosso restaurante.</p>
+            <p>Seja para uma celebração especial, um jantar romântico ou uma reunião de negócios, o Gourmet Style oferece o cenário perfeito e o serviço excepcional que você merece. Venha nos visitar e descubra o verdadeiro significado de requinte e sabor.</p>
+        </div>
+    </section>
+    
+</section>
+
+<section id="contato">
+    <section id="contato" class="contato">
+        <div class="contato-container">
+            <h1>Entre em Contato</h1>
+            <p>Tem alguma dúvida ou deseja fazer uma reserva? Estamos aqui para ajudar! Entre em contato conosco através dos seguintes meios:</p>
+            <div class="contato-info">
+                <div class="info-item">
+                    <h2>Endereço</h2>
+                    <p>Rua das Delícias, 123<br>Cidade Gourmet, BG 45678-900</p>
+                </div>
+                <div class="info-item">
+                    <h2>Telefone</h2>
+                    <p>(11) 1234-5678</p>
+                </div>
+                <div class="info-item">
+                    <h2>E-mail</h2>
+                    <p><a href="mailto:contato@gourmetstyle.com">contato@gourmetstyle.com</a></p>
+                </div>
+            </div>
+            <h2>Formulário de Contato</h2>
+            <form action="enviar-contato.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+</section>
+
+
+<footer>
+    <p>&copy; Gourmet Style. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
